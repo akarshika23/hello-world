@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <h1 style="text-align:center;">BANASTHALI UNIVERSITY,JAIPUR</h1>
+    <h2 style="text-align:center;">B.TECH Third Semester Registeration Form</h2>
+    <marquee>Last Date:10th september,2021</marquee>
+    <hr>
+    <form>
+        <h2>Student Information</h2>
+        <label>Name:</label>
+        <br><br><input type="text" placeholder="firstname" name="firstname">
+        <br><br><input type="text" placeholder="lastname" name="lastname">
+        <br><br>Email(personal): <input type="email" id="email" name="email" placeholder="@gmail.com">
+        <br><br>Student Email: <input type="email" id ="email" name="email" placeholder="@gmail.com">
+        <br><br>Phone No.: <input type="text" placeholder="10 digit number">
+        <br><br><label>"Date of Birth:"</label>
+        <br><br><input type="Date" name="myDate">
+        <br><br><label>Registeration No.:</label>
+        <br><br><input type="number" name="myRegisteration" placeholder="7 digit number">
+        <br><br>CGPA: <input type="number" name="cgpa"> out of <input type="number">
+        <br><br>Branch: <select name="myBranch:" id="Branch">
+            <option value="space"></option>
+            <option value="EE">Electrical and Electronics Engineering</option>
+            <option value="CS">Computer Science Engineering</option>
+            <option value="IT">Information Technology</option>
+            <option value="EC">Electronics and Communication Engineering</option>
+            <option value="ME">Mechatronics Engineering</option>
+            <option value="CE">Chemical Engineering</option>
+        </select>
+        <br><br>Gender: <input type="radio" name="gender"value="female">female
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="other">other
+        <br><br>Address: <input type="text" maxlen="50" placeholder="House no.,district,state">
+        <br><br>Pincode: <input type="number" name="pincode">
+        <br>
+        <hr>
+        <br><input type="submit" value="Submit">
+        <input type="Reset"   value="Reset">
+    </form>
+</body>
+</html>

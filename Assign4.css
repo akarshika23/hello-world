@@ -1,0 +1,18 @@
+h1{
+    font-style:bold;
+    background-image: url("food.png.png");
+}
+
+#bod
+    {
+        max-height: fit-content;
+        background-image: url("food2.png");
+        
+        
+    }
+    p1
+    {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+}
