@@ -1,0 +1,40 @@
+*{
+
+}
+#id{
+    background-size: auto;
+    max-height: max-content;
+    max-width: min-content;
+}
+#logo{
+    font-weight:500;
+    font-size: medium;
+    color:black;
+    text-decoration: cornsilk;
+    margin: left 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#id{
+    font-size: 50px;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+#container{
+    background-color: black;
+    margin: 150px auto;
+    padding: 8px;
+    text-emphasis-color: white;
+}
+#img{
+    float:right;
+    width= 300px;
+    height= 400px;
+    margin: 3;
+}
+#about{
+    text-decoration:black ;
+}
+#a{
+    text-emphasis-color: black;
+}

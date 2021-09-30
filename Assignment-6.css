@@ -1,0 +1,47 @@
+body{
+    background-color:rgba(220, 255, 239, 0.137);
+    font-size: large;
+     
+}
+div{
+    background-color: gray;
+    padding-block: center;
+
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 50 px;
+    max-width:  20 px;
+    text-align:left;
+    color:darkorange;
+}
+#p1{
+    font-size: medium;
+    text-align: center;
+    color:#ffd700;
+}
+#cointainer{
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    color: darkorange;
+}
+ul{
+    text-align:left;
+    text-transform: none;
+    text-shadow: 0ch;
+    color:green;
+}
+h2{
+    background-color: goldenrod;
+    
+}
+.first-text{
+    position: absolute;
+    top:17px;
+    right:50px;
+    text-align: center;
+}
