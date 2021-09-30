@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript program</title>
+    <script type="text/javascript">
+        function calculate()   
+        {
+            var num=document.getElementById("number").value;
+            //take the input from the user
+            alert(num*num);
+            document.writeln("square is:",+num*num,"<br />");
+            alert(num*num*num);
+            document.writeln("cube is:+",+num*num*num,"<br />");
+        }
+    </script>
+</head>
+<body>
+    <h2>finding the square and cube root of the number:-</h2>
+    <form>
+         Enter the number to find the square and cube root:<input type="text" id="number" name="number"/><br>
+         <br>
+         <input type="button" name="check" value="check" onclick="calculate()"/>
+         <br>
+    </form>
+</body>
+</html>
